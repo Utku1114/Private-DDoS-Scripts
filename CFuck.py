@@ -44,7 +44,7 @@ def Attack():
 	pprr = open(proxyList).readlines()
 	proxy = random.choice(pprr).strip().split(":")
 	s = cfscrape.create_scraper()
-	#s.proxies = {}
+	s.proxies = {}
 	#s.proxies['http'] = 'http://'+str(proxy[0])+":"+str(proxy[1])
 	#s.proxies['https'] = 'https://'+str(proxy[0])+":"+str(proxy[1])
 	time.sleep(5)
