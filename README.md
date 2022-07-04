@@ -1,2 +1,3 @@
 # Private-DDoS-Scripts
-Özel ddos scriptleri (very private xD)
+
+Just public scripts :)
